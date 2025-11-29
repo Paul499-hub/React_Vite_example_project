@@ -1,0 +1,71 @@
+========================== INITIALIZE REACT PROJECT + DEPENDANCIES 
+
+npm create vite@latest
+npm i  // installs dependancies
+npm run dev 
+npm install react-router-dom
+npm install json-server
+
+background-color: #242424;
+
+
+============================= GIT ==============================
+
+----------- GIT LOGIN 
+git config --global user.name "eldarasana"
+git config --global user.email "your-email@example.com"
+Open Control Panel → Credential Manager - remove github acc
+
+
+
+
+--------------- INITIALIZE
+git init   // creates local git folder 
+git remote add origin <your-github-repo-url>  // not used
+git push -u origin main    // not used
+
+--------------- LINK TO ONLINE 
+git branch -M main   // renames branch to main
+git remote add origin https://github.com/Paul499-hub/react_one_repo.git
+
+-------------- COMMIT/PUSH
+git add .
+git commit -m "Message"
+git push -u origin main
+
+-------------- MERGE DIFFERENT BRANCH
+git checkout main    // changes branch into main
+git pull origin main      // pull latest changes from main branch - good practice
+git branch           // shows current branch
+
+---------- CREATE NEW BRANCH
+git checkout -b new-branch-name     // create new LOCAL branch and go to new branch
+git push -u origin new-branch-name  // create ONLINE branch
+git branch -m new-branch-name       // RENAME BRANCH
+
+-- DELETE BRANCH 
+git branch -d test-branch   // delete local 
+git push origin --delete test   // delete branch online
+
+
+
+---------- PUBLISH TO PAGES --- https://www.youtube.com/watch?v=hn1IkJk24ow&ab_channel=PedroTech
+npm install gh-pages
+package.json ->  
+    TOP
+    "homepage": "https://eldarasana.github.io/React2", 
+UNDER SCRIPTS
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+vite.config.js -> base: "/React2", under plugins: [react()],
+push
+npm run deploy    
+
+====================================== JSON SERVER 
+npx json-server --watch src/db.json --port 5000  // launch server
+
+
+
+
+================ CODE IMPORTS
+import { BrowserRouter, Router, Routes, Route, NavLink } from "react-router-dom";

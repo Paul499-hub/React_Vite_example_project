@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": "1796",
+      "name": "Pauli",
+      "age": 17
+    },
+    {
+      "id": "bcff",
+      "name": "Gandalf",
+      "age": 2
+    },
+    {
+      "id": "b19a",
+      "name": "Zodiakasdfdf",
+      "age": 30
+    },
+    {
+      "id": "461a",
+      "name": "Jake",
+      "age": 17
+    },
+    {
+      "id": "6198",
+      "name": "Morger",
+      "age": 26
+    },
+    {
+      "id": "427a",
+      "name": "adfasdf",
+      "age": 3
+    },
+    {
+      "id": "02d3",
+      "name": "Spongebob",
+      "age": 5
+    },
+    {
+      "id": "cde3",
+      "name": "Agg",
+      "age": 2
+    }
+  ],
+  "games": [
+    {
+      "id": "6dd9",
+      "name": "God of war",
+      "released": 1993
+    },
+    {
+      "id": "5888",
+      "name": "Spongebob adventuriess",
+      "released": 2009,
+      "age": 2012
+    },
+    {
+      "id": "c81c",
+      "name": "Hood Avatar 3",
+      "released": 2005
+    },
+    {
+      "id": "f5de",
+      "name": "Hunter",
+      "released": 2008
+    },
+    {
+      "id": "7f27",
+      "name": "Need for speed",
+      "released": 2017
+    },
+    {
+      "id": "2a4e",
+      "name": "CS:GO",
+      "released": 2020
+    }
+  ]
+}
