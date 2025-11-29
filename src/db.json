@@ -8,7 +8,7 @@
     {
       "id": "bcff",
       "name": "Gandalf",
-      "age": 2
+      "age": 8
     },
     {
       "id": "b19a",
@@ -39,6 +39,11 @@
       "id": "cde3",
       "name": "Agg",
       "age": 2
+    },
+    {
+      "id": "f559",
+      "name": "ASD",
+      "age": 0
     }
   ],
   "games": [

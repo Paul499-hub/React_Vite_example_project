@@ -10,3 +10,10 @@
 
 ### Run back-end (SECOND TERMINAL REQUIRED) 
 - `npx json-server --watch src/db.json --port 5000`
+
+
+![Image loading...](img/S1.PNG)
+
+![Image loading...](img/S2.PNG)
+
+![Image loading...](img/S3.PNG)
